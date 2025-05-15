@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib';
-import { SatisfactoryEcsServerStack } from '../lib/satisfactory-ecs-server-stack';
+import { SatisfactoryEcsServerStack } from '../lib/SatisfactoryEcsServerStack';
 
 const app = new cdk.App();
 new SatisfactoryEcsServerStack(app, 'SatisfactoryEcsServerStack', {
