@@ -10,7 +10,7 @@ import { RemovalPolicy } from 'aws-cdk-lib';
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 export class SatisfactoryEcsServerStack extends cdk.Stack {
   MAX_PLAYERS = 10;
-  STEAM_BETA = true;
+  STEAM_BETA = false;
   APP_NAME = 'satisfactory-server';
   BUCKET_NAME = 'savegame-bucket'
 
